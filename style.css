@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input, button{
+    outline: none;
+}
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 800px;
+}
+h2.title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 3rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+ul.list-items{
+    border: 1px solid #eee;
+    margin: 20px 0;
+}
+ul li{
+    border: 1px solid #eee;
+    padding: 10px 30px;
+}
+ul li.list-item--header{
+    padding: 15px 10px;
+    font-size: 2rem;
+    font-weight: 500;                       
+}
+ul li a{
+    color: rgb(23, 202, 226);
+}
+.searchFiled{
+    width: 100%;
+    padding: 10px 5px;
+    border: 0;
+    border-bottom: 2px solid #999;
+    text-transform: capitalize;
+    position: relative;
+}
+.searchFiled:focus::placeholder{
+   color: #333;   
+}
+.searchFiled:focus{
+   border-color: rgb(23, 202, 226);  
+}
